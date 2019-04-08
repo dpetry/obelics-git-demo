@@ -6,7 +6,6 @@ python:
 
 install:
     - pip install test
-    - curl |
 
 script:
     - pytest -v
