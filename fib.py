@@ -1,4 +1,4 @@
-def fib(m):
+def fib(n):
     """
     fibonacci
     """
@@ -9,4 +9,4 @@ def fib(m):
 
     print("hello")    
 
-    return fib(n - 1) + n
+    return fib(n - 1) + fib(n - 2)
